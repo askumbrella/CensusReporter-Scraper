@@ -18,7 +18,9 @@ Extract senior population, income per capita, median household income, and densi
 
 ## Run
 
-Create a regions.csv file filled with zip codes separated by newlines. Run the below command.
+Create a regions.csv file filled with zip codes separated by newlines. You can search for zip codes by city, state, county, or area code [here](https://www.zip-codes.com/search.asp)
+
+Run the below command.
 
     ./run.sh
 
