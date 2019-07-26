@@ -1,6 +1,6 @@
 # CensusReporter-Scraper
 
-*Extract senior population, income per capita, median household income, and density from a list of zip codes*
+Extract senior population, income per capita, median household income, and density from a list of zip codes
 
 ## Requirements
 
