@@ -100,7 +100,8 @@ class CensusReporterSpider(scrapy.Spider):
             '//*[@id="economics"]/div/section[1]/div[2]/a/span/span[1]'
         ).text.strip()
         percent_single_family = self.driver.find_element_by_xpath(
-            '//*[@id="housing"]/div/section[2]/div[1]/div[1]/div[2]/div[1]/span[2]'
+            '//*[@id="housing"]/div/section[2]/div[1]/div[1]/div[2]/\
+            div[1]/span[2]'
         ).text.strip()
 
         yield {
