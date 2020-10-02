@@ -1,6 +1,6 @@
 # CensusReporter-Scraper
 
-Extract senior population, income per capita, median household income, and density from a list of zip codes
+Extract senior population, income per capita, median household income, and density from a list of counties
 
 ## Requirements
 
@@ -16,9 +16,17 @@ Extract senior population, income per capita, median household income, and densi
     pip install selenium
     pip install Scrapy 
 
-## Run
+## Input
 
-Create a regions.csv file filled with zip codes separated by newlines. You can search for zip codes by city, state, county, or area code [here](https://www.zip-codes.com/search.asp)
+Create a regions.csv file where each line contains the county followed by it's corresponding state separated by a comma. You can search for counties [here](https://www.zip-codes.com/search.asp)
+
+regions.csv
+
+    Nassau,NY
+    Suffolk,NY
+    Queens,NY
+
+## Run
 
 Run the below command.
 
